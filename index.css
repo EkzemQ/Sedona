@@ -1,0 +1,49 @@
+.hotels-filter {
+  display: flex;
+  flex-direction: row;
+}
+
+.hotels-filter:first-child {
+  margin-right: 20px;
+}
+
+/* 
+.hotels-cost {
+    color: red;
+    margin-left: auto;
+} */
+
+.hotels-list-header {
+  display: flex;
+}
+
+.hotels-sort-list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-left: 40px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.hotels-sort-text {
+  margin-right: 20px;
+}
+
+.sort-item {
+  margin-right: 10px;
+}
+
+.sort-item:last-child {
+  margin: 0;
+}
+
+.sort-item-updown {
+  text-transform: uppercase;
+}
+
+.sort-navigation {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
