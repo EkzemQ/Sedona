@@ -19,7 +19,7 @@
           <a href="#" class="nav-item__link">Фото и Видео</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-item__link">
+          <a class="nav-item__link">
             <img src="#" alt="Логотип Sedona" />
           </a>
         </li>
@@ -27,7 +27,7 @@
           <a href="#" class="nav-item__link">Карта штата</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-item__link">Гостиницы</a>
+          <a href="/hotels.html" class="nav-item__link">Гостиницы</a>
         </li>
       </ul>
     </nav>
@@ -140,11 +140,25 @@
     </div>
     <a href="#" class="copyright">HTML Academy</a>
   </footer>
-  <label for="checkbox">
-    <input id="checkbox" type="checkbox" /> test
   </label>
   <section class="modal-search-form">
-    <!--форма будет тут попозже-->
+    <form class="search-form" action="#">
+      <label for="join-date" class="search-form-text">Дата заезда:
+        <input id="join-date" type="datetime-local" name="calendar" value="03.11.2021">
+      </label>
+      <label for="out-date" class="search-form-text">Дата выезда:
+        <input id="out-date" type="datetime-local" name="calendar" value="03.11.2021">
+      </label>
+      <p class="search-form-text">Взрослые:</p>
+      <button class="search-form-button" type="button">-</button>
+      <span class="search-form-counter">0</span>
+      <button class="search-form-button" type="button">+</button>
+      <p class="search-form-text">Дети:</p>
+      <button class="search-form-button" type="button">-</button>
+      <span class="search-form-counter">0</span>
+      <button class="search-form-button" type="button">+</button>
+      <button class="search-form-submit" type="submit">Найти</button>
+    </form>
   </section>
 </body>
 
