@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+
+  font-family: PT Sans Regular, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+  text-transform: uppercase;
+
+  background-color: #ffffff; 
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-nav {
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+
+  background-color: #ffffff;
+}
+.nav-item a,
+.nav-item__link a {
+  color: black;
+  transition: all ease-in-out 0.4s;
+}
+
+.nav-item a:hover,
+.nav-item a:focus,
+.nav-item__link a:hover,
+.nav-item__link a:focus {
+  color: #84b2d4; 
+  transition: all ease-in-out 0.4s;
+}
+
+.social-list, 
+.nav-items,
+.benefits-list,
+.info-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.preview {
+  width: auto;
+  height: 550px;
+
+  background-image: url("/img/background.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.benefits h2 {
+font-size: 21px;
+line-height: 26px;
+font-weight: 700;
+}
+
+.info-list h4, h3 {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.benefits-item-description {
+  background-color: #81b3d2;
+  background-repeat: repeat;
+  background-position: 0 0;
+}
+
+.benefits-item-description__grey {
+  background-color: #eeeeee;
+}
+
+.benefits {
+  text-align: center;
+}
+
+.hotels-filter {
+  display: flex;
+  flex-direction: row;
+}
+
+.hotels-filter:first-child {
+  margin-right: 20px;
+}
+
+/* 
+.hotels-cost {
+    color: red;
+    margin-left: auto;
+} */
+
+.hotels-list-header {
+  display: flex;
+}
+
+.hotels-sort-list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-left: 40px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-items {
+  display: flex;
+  margin: 15px;
+  margin-left: 20px;
+}
+
+.nav-item {
+  margin: 0 auto;
+}
+
+
+.hotels-sort-text {
+  margin-right: 20px;
+}
+
+.sort-item {
+  margin-right: 10px;
+}
+
+.sort-item:last-child {
+  margin: 0;
+}
+
+.sort-item-updown {
+  text-transform: uppercase;
+}
+
+.sort-navigation {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
