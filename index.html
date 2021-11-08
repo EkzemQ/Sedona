@@ -38,8 +38,8 @@
     <section class="preview"></section>
     <section class="benefits">
       <h2>СЕДОНА — небольшой городок в АРИЗОНЕ,
-          зaслуживающий большего!
-        </h2>
+        зaслуживающий большего!
+      </h2>
       <p class="benefits-description">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       <ul class="benefits-list">
         <li class="benefits-item benefits-item-large">
@@ -78,39 +78,43 @@
             <p class="benefits-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
           </div>
         </li>
-        <li class="benefits-item">
-          <div class="benefits-item-description benefits-item-description__grey">
-            <h3>Небольшая площадь</h3>
-            <span class="benefits-number">№3</span>
-            <p class="benefits-text">Все достопримечательности находятся очень близко</p>
-          </div>
-        </li>
-        <li class="benefits-item">
-          <div class="benefits-item-description benefits-item-description__grey">
-            <h3>Красивая дорога</h3>
-            <span class="benefits-number">№4</span>
-            <p class="benefits-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-          </div>
-        </li>
-        <li class="benefits-item">
-          <div class="benefits-item-description benefits-item-description__grey">
-            <h3>Мало туристов</h3>
-            <span class="benefits-number">№5</span>
-            <p class="benefits-text">Большинство едет в Гранд Каньон и толпится там</p>
-          </div>
-        </li>
+        <div class="benefits-wrapper">
+          <li class="benefits-item">
+            <div class="benefits-item-description benefits-item-description__grey">
+              <h3>Небольшая площадь</h3>
+              <span class="benefits-number">№3</span>
+              <p class="benefits-text">Все достопримечательности находятся очень близко</p>
+            </div>
+          </li>
+          <li class="benefits-item">
+            <div class="benefits-item-description benefits-item-description__grey">
+              <h3>Красивая дорога</h3>
+              <span class="benefits-number">№4</span>
+              <p class="benefits-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            </div>
+          </li>
+          <li class="benefits-item">
+            <div class="benefits-item-description benefits-item-description__grey">
+              <h3>Мало туристов</h3>
+              <span class="benefits-number">№5</span>
+              <p class="benefits-text">Большинство едет в Гранд Каньон и толпится там</p>
+            </div>
+          </li>
+        </div>
       </ul>
     </section>
     <section class="interesting">
-      <h3>Заинтересовались?</h5>
-        <p class="interesting-text">Укажите предполагаемые даты поездки,<br>
+      <div class="interesting-item">
+      <h3>Заинтересовались?</h3>
+        <p class="interesting-text">Укажите предполагаемые даты поездки, <br>
           и мы покажем вам лучшие предложения гостиниц в Седоне
         </p>
-        <button type="button" class="bottom-search">Поиск гостиницы в Седоне</button>
-        <div id="map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.4919252763116!2d30.37357061589555!3d50.43193719657947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cb85bf4450c1%3A0x5bd73f6b7a7c8f4!2z0YPQuy4g0KLRg9C70YPQt9GLLCAyMiwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1635875453967!5m2!1sru!2sua"
-            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <button type="button" class="bottom-search">Поиск гостиницы в Седоне
+        </button>
+      </div>
+        <div>
+          <img class="map"
+            src="/img/map.png"> </img>
         </div>
     </section>
   </main>
@@ -138,7 +142,7 @@
     <a href="#" class="copyright">HTML Academy</a>
   </footer>
   </label>
-  <section class="modal-search-form">
+  <section class="modal-search-form visually-hidden">
     <form class="search-form" action="#">
       <label for="join-date" class="search-form-text">Дата заезда:
         <input id="join-date" type="datetime-local" name="calendar" value="03.11.2021">
