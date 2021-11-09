@@ -114,7 +114,7 @@ font-weight: 700;
   font-weight: 700;
   font-size: 24px;
   line-height: 26px;
-  padding: 40px;
+  padding: 30px;
   border: 0;
   color: #ffffff;
   background-color: #766357;
@@ -142,13 +142,8 @@ font-weight: 700;
 .nav-items {
   display: flex;
   margin: 15px;
-  margin-left: 20px;
+  justify-content: space-around;
 }
-
-.nav-item {
-  margin: 0 auto;
-}
-
 
 .hotels-sort-text {
   margin-right: 20px;
@@ -183,7 +178,7 @@ font-weight: 700;
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 100%;
+  width: 1200px;
   height: 120px;
   background: rgba(255,255,255,0.8);
 }
@@ -217,9 +212,9 @@ font-weight: 700;
   height: 255px;
 }
 .benefits-item-image img {
-  width: 800px;
+  flex-grow: 1;
   height: 100%;
-
+  
 }
 .info-list {
   display: flex;
@@ -246,5 +241,67 @@ font-weight: 700;
   justify-content: space-between;
   text-align: center;
 }
+.interesting-item h3 {
+  font-size: 30px;
+  margin-top: 50px;
+}
+.nav-item__link img {
+  position: absolute;
+    left: 50%;
+    margin-left: -69px;
+    margin-top: -15px;
+}
 
+.benefits-description  {
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.visitsedona {
+  text-decoration: none;
+  color: #000000;
+  font-size: 21px;
+  font-weight: 900;
+  margin-left: 133px;
+  margin-top: 47px;
+}
+/* .copyright {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  font-size: 14px;
+  margin-right: 115px;
+  margin-top: 47px;
+} */
 
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright-items {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: #000000;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.copyright-items a {
+  color: #000000;
+}
+.copyright-items a:first-child {
+  padding-right: 10px;
+}
+.copyright-items a:last-child {
+  margin-right: 115px;
+}
+
+.copyright-svg:focus path,
+.copyright-svg:hover path {
+  background-color: aqua;
+  color: #ffffff;
+}
